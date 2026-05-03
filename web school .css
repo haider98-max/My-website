@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 100px;
+    width: 1550px;
+    display: flex;
+    color: white;
+    /* background-color: rgb(21, 90, 137);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:     1000; */
+}
+    
+
+
+.nav-logo{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    
+}
+
+.search-icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: -100px;
+    color: white
+}
+
+.img{
+    height: 55px;
+    width: 50px;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.img h2{
+    margin-left: 55px;
+    font-size: 50px;
+}
+.img h1{
+    margin-left: 10px;
+    margin-top: 45px;
+    margin-left: -150px;
+    font-size: 50px;
+}
+
+.nav-search{
+    margin-left: 1000px;
+    margin-top: 40px;
+}
+
+.nav-search i{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.nav-menu{
+    margin-left: 150px;
+    margin-top: 40px;
+    
+}
+
+.nav-icon2 i{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: -100px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.hero-img{
+    height: 900px;
+    width: 100%;
+    background-image: url(hero\ section\ 2.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+    background-color: transparent;
+    
+    
+   
+}
+
+/* Body Section */
+
+.content{
+    height: 2000px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-experience{
+    height: 400px;
+    width: 1000px;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 130px;
+}
+
+.paragraph{
+    justify-content: center;
+    align-items: center;
+}
+.nav-experience h1{
+    color: rgb(2, 98, 158);
+    font-size: 50px;
+    margin-left: 140px;
+}
+
+.nav-experience p{
+    font-size: 20px ;
+    justify-content: center;
+}
+
+
+.div-msg{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(3, 97, 66);   
+    /* background-color: rgb(14, 60, 152); */
+    border-radius: 10px;
+    margin-top: 130px;
+    color: white;
+    justify-content: center;
+}
+.div-msg p{
+    margin-right: 100px;
+}
+
+.div-msg p{
+    margin-left: 250px;
+    font-size:25px;
+}
+
+
+.div-msg h1{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 50px ;
+}
+
+@keyframes Sliding{
+    from {left: 0px;}
+    to {left: 1000px;}
+}
+
+.boxes-msg{
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 100px;
+    color: rgb(40, 76, 138);
+    
+}
+
+.boxes{
+    height: 2000px;
+    width: 1500px; 
+    margin-top: 100px;
+}
+
+.box{
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 40px;
+    margin-left: px;
+    margin-top: 20px;
+    /* position: absolute;
+    animation-name:Sliding;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation: move linear; */
+
+}
+
+.box2{
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 40px;
+    margin-left: px;
+    margin-top: 200px;
+}
+
+.short-msg{
+    height: 300px;
+    width: 700px;
+    color: rgb(19, 106, 173);
+    margin-top: 300px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+.short-box{
+    height: 800px;
+    width: 1500px;
+
+}
+
+.short1-sec{
+    height: 800px;
+    width: 100%px;
+    justify-content: center;
+    margin-top: -150px;
+    border-radius: 20px;
+    
+    
+}
+.short-msg h1{
+    height: 400px;
+    width: 900px;
+    margin-top: 150px;
+    color: brown;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.short1{
+    height: 600px;
+    width: 700px;
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: -700px;
+    margin-left: 13px;
+}
+
+.short2{
+    height: 600px;
+    width: 700px;
+    background-size: cover;
+    margin-left: 800px;
+    border-radius: 30px;
+    margin-top: -600px;
+}
+.footer{
+    height: 1500px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1000px;
+}
+/* 
+.fot-pra{
+    height: 300px;
+    width: 100%px;
+    background-color: rgb(53, 106, 213);
+    margin-top: 2700px;
+    border-radius: 20px;
+    color: white;
+}
+
+.fot-pra h1{
+    font-size: 40px;
+    margin-left: 500px;
+
+}
+
+.fot-pra p{
+    font-size: 30px;
+}  */
+
+.foot-img{
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 2600px;
+    border-radius: 10px;
+}
